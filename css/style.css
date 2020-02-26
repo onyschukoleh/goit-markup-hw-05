@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mainhead {
+  height: 50px;
+  background-color: #1abc9c;
+}
+
+.user-nav,
+.sait-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-nav {
+  height: 50px;
+}
+.sait-nav {
+  height: 90px;
+  /* background-color: red; */
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-link {
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 11;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* .nav-linkt:last-child {
+  padding-right: 0;
+} */
+.nav-phone,
+.nav-mail {
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Open Sans";
+  margin-right: 30px;
+}
+
+.nav-phone::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../image/phone1.png");
+  background-position: center;
+  background-size: auto;
+  padding-right: 8px;
+  background-repeat: no-repeat;
+}
+
+.nav-mail::before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../image/mail.png");
+  background-position: center;
+  background-size: auto;
+  padding-right: 18px;
+  background-repeat: no-repeat;
+}
+
+.sait-logo {
+  font-weight: 300;
+
+  font-family: "Open Sans";
+  font-size: 30px;
+  line-height: 1.067;
+  color: #555252;
+  text-decoration: none;
+}
+.sait-logo::first-letter {
+  color: rgb(26, 188, 156);
+}
+
+.user-nav a {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+}
+.sait-nav a {
+  text-transform: uppercase;
+  color: #0f0101;
+  font-weight: bold;
+}
+.sait-nav a:hover {
+  color: rgb(26, 188, 156);
+}
